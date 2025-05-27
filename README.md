@@ -14,6 +14,7 @@ It consists of:
 - Estimation of the magnetic moment vector direction
 - Comparison with time-synchronized coil field vectors
 
+![Descriptive Alt Text](doc/Detected_image_momentum.png)
 ---
 
 ##  File Descriptions
