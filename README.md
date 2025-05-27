@@ -1,10 +1,7 @@
-# mhd-rotation-tools
+# MHD_Macroscopic_ball_analysis
 
 **Macroscopic Tracking of Magnetic Particle Dynamics**  
-Developed for analyzing rotational dynamics of magnetized spheres in viscous fluid under rotating magnetic fields. This toolkit supports experiments presented in:
-
-> **"Macroscopic Experiments of Magnetic Particle Dynamics"**  
-> Roberts Treize & Jānis Cīmurs (2025)
+Developed for analyzing rotational dynamics of magnetized spheres in viscous fluid under rotating magnetic fields. 
 
 ---
 
@@ -63,7 +60,7 @@ It consists of:
 
 ##  Input File Format
 
-### � Frame Images
+### Frame Images
 - Grayscale PNG or JPG
 - Recommended size: ≥640×480
 - Must show clear division between black/white hemispheres
@@ -75,7 +72,7 @@ It consists of:
 - Units: typically in microteslas or milliteslas
 - Must be **time-synchronized** with video
 
-### ⏱ Frame Timing
+### Frame Timing
 - Frame rate is assumed **constant** (default: 30 fps)
 - Adjust `process_ball_images.py` to match your actual frame rate if different
 
